@@ -23,6 +23,13 @@ img {
     width: 100%;
 }
 
+.background{
+    background-image: url('images/starwars.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
 .container{
     max-width: 900px;
     margin: 0 auto;
@@ -109,6 +116,7 @@ img {
 
 .btn:active {
     background-color: #ff4500;
+    color: #000;
 }
 
 #score {
@@ -136,4 +144,5 @@ img {
 
 .quiz-repeat a:hover {
     background-color: #ffe818;
+    color: #000;
 }
